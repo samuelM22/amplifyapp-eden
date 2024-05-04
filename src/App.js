@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to Eden Cloud</h1>
+      <p>At Eden, we are commited to bringing technological and innovative teachings to the underserved.
+        Our greatest mission is to see a generation embrace the dynamic impact of cutting edge technology, utilizing 
+        the power of knowledge for the betterment of humanity.
+      </p>
+      <p><b>Thank You for coming on this journey with us</b></p>
     </div>
   );
 }
